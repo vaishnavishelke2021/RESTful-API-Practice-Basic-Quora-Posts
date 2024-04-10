@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #161616;
+    padding: 4rem;
+}
+
+h1{
+    color: rgb(244, 95, 69);
+    margin-bottom: 2rem;
+}
+
+.post-box{
+    background-color: rgba(255, 255, 255, 0.102);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.416);
+    border-radius: 5px;
+    padding: 2rem;
+    color: whitesmoke;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.username{
+    font-style: italic;
+}
+
+.content{
+    margin-top: 0.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.746);
+}
+
+.create-post{
+    background-color: rgb(244, 95, 69);
+    color: #161616;
+    padding: 5px 10px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: rgba(255, 255, 255, 0.100);
+    border-radius: 3px;
+    color: white;
+    padding: 5px 15px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: normal;
+}
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.172);
+    color: white;
+    cursor:pointer;
+}
+
+.delete-btn{
+    background-color: rgb(213, 60, 60);
+    color: white;
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: normal;
+    border: none;
+    outline:none;
+}
+.delete-btn:hover{
+    background-color: rgb(178, 0, 0);
+    cursor:pointer;
+    color: white;}
+
+.view-post-btn:hover{
+    background-color: rgba(255, 255, 255, 0.300);
+    color: black;
+}
+
+.edit-btn{
+    background-color: rgb(244, 95, 69);
+    border-radius: 3px;
+    color: white;
+    padding: 5px 15px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.edit-btn:hover{
+    cursor:pointer;
+    background-color: rgba(255, 255, 255, 0.300);
+    color: white;
+}
+
+.edit-box{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    padding:1rem 0rem 2rem 0rem;
+    color: white;
+}
+
+.create-input{
+    width: 300px;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.100);
+    border-radius: 3px;
+    color: white;
+    padding: 10px 15px;
+
+}
+
+.buttons{
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
